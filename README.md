@@ -29,7 +29,26 @@ This project aims to solve these problems by creating an intelligent wallet anal
   - https://app.near.ai/agents/swimsmoke.near/zerion-wallet-analysis-agent/latest
 - [Claude MCP server](https://github.com/heurist-network/heurist-mesh-mcp-server/blob/main/README.md)
 
-## Claude system prompt
+## Setup Instructions
+The above repositories have detailed setup instructions. For a limited time, you can use the following configuration to connect to the MCP server directly.
+
+Claude Desktop MCP config file
+```
+{
+    "mcpServers": {
+      "mcp-proxy-agent-1": {
+          "command": "mcp-proxy",
+          "args": ["https://sequencer-v2.heurist.xyz/tool6271b/sse"]
+      }
+    }
+  }
+```
+
+You need to install https://github.com/sparfenyuk/mcp-proxy to use MCP SSE endpoint URL on Claude Desktop. 
+
+Alternatively, Cursor can use SSE directly. Next, you need to enter the following system prompt. You can do that by putting it inside a Claude project if you're using Claude Desktop, or putting it in the user input if you're using other MCP clients.
+
+### Claude system prompt
 ```
 Requirements:
 - Use as many tools available to get a comprehensive result
