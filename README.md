@@ -1,6 +1,8 @@
 # EVM Wallet Analyst Agent
 
-🎞️ [Presentation Link](https://www.figma.com/slides/PcWsiQpix0KChZHZNPAI6w/EVM-Wallet-Analyst-Agent?node-id=1-26&t=eDDNrXCedliQGqrm-1)
+🎞️ [Presentation Video](https://www.loom.com/share/6f960537a0064db0ba0f4e975a38c124?sid=af443bb3-a659-4b74-ad4b-28ff01aba878) 
+[Figma Slides](https://www.figma.com/slides/PcWsiQpix0KChZHZNPAI6w/EVM-Wallet-Analyst-Agent?node-id=1-26&t=eDDNrXCedliQGqrm-1)
+[Claude Conversation Example](https://claude.ai/share/b38128ee-cd6e-4f91-8865-f2752493f0a5)
 
 ## Problem Statement
 Crypto traders and investors face challenges managing their portfolios across the fragmented EVM ecosystem: With hundreds of EVM-compatible blockchains and thousands of tokens, traders struggle to maintain a comprehensive view of their holdings across chains. While portfolio trackers show basic balances, they fail to deliver actionable insights about the specific assets in a wallet or relevant market developments.
